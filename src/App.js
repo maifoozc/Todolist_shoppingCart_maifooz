@@ -21,13 +21,13 @@ function App() {
             }
           />
           {/* Route for the home page */}
-          <Route path="home" element={<Home />} />
+          <Route path="/home" element={<Home />} />
 
           {/* Route for the about page */}
-          <Route path="about" element={<About />} />
+          <Route path="/about" element={<About />} />
 
           {/* Route for the contact page */}
-          <Route path="contact" element={<Contact />} />
+          <Route path="/contact" element={<Contact />} />
         </Routes>
       </BrowserRouter>
     </div>
